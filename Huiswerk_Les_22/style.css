@@ -1,0 +1,10 @@
+.navbar {
+  background-color: #012242 !important;
+}
+footer p {
+  color: #f8f3f3;
+}
+.custom-height {
+  height: 250px;
+  object-fit: cover;
+}

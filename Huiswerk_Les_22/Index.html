@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dit ben ik</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Mijn Website</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="overmij.html">Over mij</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container-sm">
+        <h1>Welkom op mijn website!</h1>
+            <p>Hier vind je informatie over mij en mijn hobby's.</p>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 mb-3"><img src="../Huiswerk_Les_22/Afbeeldingen/herfstbos.jpg" class="img-fluid custom-height" alt="Afbeelding 1" title="Herfstkleuren in het bos"></div>
+        <div class="col-md-4 col-sm-6 mb-3"><img src="../Huiswerk_Les_22/Afbeeldingen/strand.jpg" class="img-fluid custom-height" alt="Afbeelding 2" title="Strand Rockanje"></div>
+        <div class="col-md-4 col-sm-6 mb-3"><img src="../Huiswerk_Les_22/Afbeeldingen/natuurgebied.jpg" class="img-fluid custom-height" alt="Afbeelding 3" title="Bezoekerscentrum Oostvoorne"></div>
+        <div class="col-md-4 col-sm-6 mb-3"><img src="../Huiswerk_Les_22/Afbeeldingen/WoWs.jpg" class="img-fluid custom-height" alt="Afbeelding 4" title="World of War ships"></div>
+        <div class="col-md-4 col-sm-6 mb-3"><img src="../Huiswerk_Les_22/Afbeeldingen/Gezin.jpg" class="img-fluid custom-height" alt="Afbeelding 5" title="Mijn gezin"></div>
+        <div class="col-md-4 col-sm-6 mb-3"><img src="../Huiswerk_Les_22/Afbeeldingen/Fortnite.jpg" class="img-fluid custom-height" alt="Afbeelding 6" title="Fortnite"></div>
+        <div class="col-md-4 col-sm-6 mb-3"><img src="../Huiswerk_Les_22/Afbeeldingen/Huisje_kerst.jpg" class="img-fluid custom-height" alt="Afbeelding 7" title="Kersthuisje lasersnijden"></div>
+        <div class="col-md-4 col-sm-6 mb-3"><img src="../Huiswerk_Les_22/Afbeeldingen/Kerstslee.jpg" class="img-fluid custom-height" alt="Afbeelding 8" title="Kerstslee lasersnijden"></div>
+        <div class="col-md-4 col-sm-6 mb-3"><img src="../Huiswerk_Les_22/Afbeeldingen/kleineboom.jpg" class="img-fluid custom-height" alt="Afbeelding 9" title="Kerstbomen lasersnijden"></div>
+      </div>
+    </div>
+<footer class="bg-dark text-white text-center mt-4" style="height:200px;">
+    <p class="pt-5">&copy; 2025 Mijn Website</p>
+</footer>
+<script>
+  if (!sessionStorage.getItem("welkomGetoond")) {
+    alert("Welkom op mijn website! Vragen of opmerkingen kunt u naar mij sturen via het contactformulier");
+    sessionStorage.setItem("welkomGetoond", "true");
+  }
+</script>
+</body>
+</html>
