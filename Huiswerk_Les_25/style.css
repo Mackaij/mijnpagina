@@ -1,0 +1,21 @@
+.navbar {
+  background-color: #0f457a !important;
+}
+footer p {
+    background-color:#0f457a;
+    color: #faf8f8;
+}
+.custom-height {
+  height: 250px;
+  object-fit: cover;
+}
+#wegknop {
+      position: absolute;
+      top: 100px;
+      left: 100px;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
